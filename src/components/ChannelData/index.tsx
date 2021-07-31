@@ -19,14 +19,14 @@ const ChannelData = () => {
         {Array.from(Array(15).keys()).map((n) => (
           <ChannelMessage
             key={n}
-            author="Olek Mallqui"
+            author="Pedro Perez"
             date="21/06/20"
             content="Jelou"
           />
         ))}
 
         <ChannelMessage
-          author="Marcio Mallqui"
+          author="Lukas Martines"
           date="21/06/20"
           content={
             <>
